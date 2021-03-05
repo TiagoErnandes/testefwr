@@ -144,7 +144,6 @@ body {
   padding: 20px 0;
   margin-bottom: 36px;
 }
-
 .nav {
   flex: 1;
   align-self: center;
@@ -153,22 +152,40 @@ body {
   float: right;
   display: flex;
 }
-
 .nav ul li a {
   padding: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
 }
-
 .nav ul li a:hover {
   color: white;
 }
+@media (max-width: 739px) {
+  .container {
+    flex-direction: column;
+    max-width: 300px;
+  }
+  .nav {
+    align-self: center;
+  }
+  .nav ul {
+    display: block;
+    margin-top: 10px;
+  }
+  .nav ul li {
+    padding: 4px 0;
+  }
+}
 
 .footer {
+  display: block;
+  width: 100%;
   margin-top: 16px;
   background: #7531eb;
   padding: 20px 0;
+  position: fixed;
+  bottom: 0;
 }
 .footer p {
   font-size: 12px;
