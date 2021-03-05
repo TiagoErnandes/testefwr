@@ -157,9 +157,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
+  color: white;
 }
 .nav ul li a:hover {
-  color: white;
+  color: #ccc;
 }
 @media (max-width: 739px) {
   .container {
