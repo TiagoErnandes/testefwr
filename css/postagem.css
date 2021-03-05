@@ -1,0 +1,23 @@
+
+.tabela {
+  margin: 16px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.titulo-tabelas {
+  background-color: #7531eb;
+  border-radius: 10px 10px 0px 0px;
+  border: 2px solid;
+}
+
+.titulo-tabelas th {
+  padding: 8px 0;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.td-postagem {
+  padding: 18px 16px;
+  border: 1px solid;
+}

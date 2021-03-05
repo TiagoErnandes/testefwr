@@ -1,0 +1,15 @@
+.foto-error {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.foto-error h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

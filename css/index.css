@@ -1,0 +1,13 @@
+.img-index{
+  width: 100%;
+}
+.titulo-desafio{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.credito-foto{
+  float: right;
+  font-size: 10px;
+}

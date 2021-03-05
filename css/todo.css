@@ -1,0 +1,36 @@
+
+.card {
+  border: 2px solid;
+  max-width: 300px;
+  margin: 20px;
+  background: #ff9f4e;
+  padding: 8px;
+  border-radius: 8px;
+  line-height: 1.5 em;
+}
+.card th {
+  padding: 16px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #7531eb;
+}
+.tabela {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card table tr td {
+  border: 1px solid;
+  padding: 10px 5px;
+  text-align: center;
+}
+.completo {
+  background: #5fdba7;
+  vertical-align: middle;
+  font-size: 0.8rem;
+}
+.incompleto {
+  background: red;
+  vertical-align: middle;
+  font-size: 0.8rem;
+}

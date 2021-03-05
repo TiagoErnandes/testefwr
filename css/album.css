@@ -1,0 +1,33 @@
+.tabela {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid;
+  max-width: 240px;
+  margin: 20px;
+  background: #ff9f4e;
+  padding: 8px;
+  border-radius: 8px;
+  line-height: 1.5 em;
+}
+.card th {
+  padding: 16px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #7531eb;
+}
+.card td {
+  padding: 5px 0;
+}
+.card td::after {
+  content: "";
+  width: 180px;
+  height: 2px;
+  background: white;
+  text-align: center;
+  display: block;
+  margin: 10px auto 5px auto;
+}
